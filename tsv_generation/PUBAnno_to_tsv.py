@@ -27,10 +27,10 @@ def get_text_with_token(json_file):
         data['text'] = data['text'][:start] + '@' + denotation['obj'].upper() + '$ ' + data['text'][end:]   #replace entity with @"obj"$
     return data['text'].replace('\u2267', '')
 
+dir_path = 'gene_disease_combined/'
+#dir_path = '../output_generation/test_folder/'
 
-dir_path = '../output_generation/test_folder/'
-
-with open('../output_generation/test_folder/generated_test.tsv', 'w') as out_file:
+with open('gene_disease.tsv', 'w') as out_file:
     index = 0
     out_file.write('index\tsentence\tlabel\n')      #First row of test.tsv file
     for json_file_name in os.listdir(dir_path):     #Loop through all json files in directory
