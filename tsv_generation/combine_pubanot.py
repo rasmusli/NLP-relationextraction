@@ -10,15 +10,15 @@ This script combines pub_annot files with different entities into one. It is don
 different folders that are containing the same files and outputing a new folder with the combined entities.
 """
 
-folder_1 = 'gene' #First folder to read from
-folder_2 = 'disease' #Second folder to read from
-output_dir = 'test_dir' #Output folder name, the script will create one if one does not already exist
+folder_1 = 'JNLPBA_PubAnno' #First folder to read from
+folder_2 = 'NCBL_PubAnno' #Second folder to read from
+output_dir = 'gene_disease_combined' #Output folder name, the script will create one if one does not already exist
 try:
     os.mkdir(output_dir)
 except:
     pass
 
-for file in listdir(entity_1): #Read all files in first folder (folder 1 and 2 should contain same file-names)
+for file in listdir(folder_1): #Read all files in first folder (folder 1 and 2 should contain same file-names)
     with open(folder_1 + '/' + file , 'r') as json_1: #Open pub-annot files of entity 1
         with open(folder_2 + '/' + file , 'r') as json_2: #Open pub-annot files of entity 2
 
