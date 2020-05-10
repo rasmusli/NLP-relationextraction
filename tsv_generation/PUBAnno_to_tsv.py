@@ -2,7 +2,10 @@ import sys
 import json
 import csv
 import os
+import pandas as pd
 from os.path import isfile, join
+from collections import OrderedDict
+from operator import getitem
 
 
 """
@@ -15,11 +18,14 @@ Relation extraction tokens (gene, desease etc.) or it needs to be taken care of 
 
 def get_text_with_token(json_file):
     data = json.load(json_file)
-    for denotation in reversed(data['denotations']):    #Reversed so changes dont 
+    denotations = data['denotations']
+    den_sorted =  sorted(denotations, key = lambda i: i['span']['begin'])
+    print (den_sorted)
+    for denotation in den_sorted:    #Reversed so changes dont 
         start = denotation['span']['begin']     #Start index of entity
         end = denotation['span']['end']         #End index of entity
         data['text'] = data['text'][:start] + '@' + denotation['obj'].upper() + '$ ' + data['text'][end:]   #replace entity with @"obj"$
-    return data['text']
+    return data['text'].replace('\u2267', '')
 
 
 dir_path = '../output_generation/test_folder/'
@@ -30,7 +36,9 @@ with open('../output_generation/test_folder/generated_test.tsv', 'w') as out_fil
     for json_file_name in os.listdir(dir_path):     #Loop through all json files in directory
         with open(dir_path + json_file_name) as json_file:
             sentences = get_text_with_token(json_file).split(' . ') #split on " . " to divide running text into sentences
+            print(sentences)
             for sentence in sentences:
+                sentence.replace('\u2267', '')
                 out_file.write(str(index) + '\t' + sentence + '\t' + '1\n') #write to file according to format of test.tsv for RE
                 index += 1  #increase index for each row/sentence sentence
 

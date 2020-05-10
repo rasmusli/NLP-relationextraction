@@ -4,7 +4,7 @@ index	sentence	label
 2	Some studies demonstrated that the severity of recurrence and levels of viral replication for HCV hepatitis after LT were higher in patients with genotype 1b HCV infection than other genotypes [ 7 , [ 19 ] [ 20 ] [ 21 ]	1
 3	Another study by Gayowski et al	1
 4	reported in their results that the rate of recurrent HCV hepatitis , timing to recurrence , severity of recurrence and response to @NE$ therapy did not differ among genotypes and suggested that HCV genotype may not be a significant factor influencing post - LT HCV hepatitis [ 22 ] .	1
-5	Recently , genetic variation in the region of the IL28B gene on chromosome 19 , coding for IFN - 3 , has been demonstrated to be strongly associated with SVR in patients with genotype 1 chronic HCV infection who are treated with @NE$ plus @NE$ in the nontransplant setting [ 23 , 24 ]	1
+5	Recently , genetic variation in the region of the IL28B gene on chromosome 19 , coding for IFN - 3 , has been demonstrated to be strongly associated with SVR in patients with genotype 1 chronic HCV infection who are treated with @NE$ plus RBV i@NE$ e nontransplant setting [ 23 , 24 ]	1
 6	IL28B polymorphism has also been associated with spontaneous HCV clearance [ 25 ]	1
 7	One cohort study , Clinical and Developmental Immunology 3 which included 189 consecutive HCV patients undergoing LT , aimed to determine the prevalence and impact on clinical outcomes of donor and recipient IL28B genotypes among liver transplant recipients [ 26 ]	1
 8	The authors suggested that recipient IL28B TT genotype is associated with more severe histological recurrence of HCV after LT and CC donor grafts might be preferentially allocated to recipients with HCV infection .	1
@@ -12,3 +12,156 @@ index	sentence	label
 10	Cytomegalovirus ( CMV ) and human herpes virus - 6 ( HHV - 6 ) are herpes viruses that commonly reactivate after transplantation	1
 11	They are proposed to have an immunomodulatory effect in transplant recipients and may play a role in promoting HCV replication [ 27 , 28 ]	1
 12	Recently , a retrospective study of 347 first LT recipients ( donor or recipient CMV seropositive ) transplanted for HCV was performed to evaluate the associations of CMV infection and disease with recurrent hepatitis C after LT	1
+13	It was found that CMV infection was associated with increased risk of fibrosis stage  2 and inflammation grade  2 [ 29 ]	1
+14	However , their effects on posttransplant HCV recurrence still remain questionable	1
+15	Data showed that short - term CMV viremia does not enhance the replication of HCV after LT [ 30 ] .	1
+16	2	1
+17	6	1
+18	Immunosuppression	1
+19	Early data , examining the pathogenesis of graft injury in liver transplant recipients with HCV infection , first reported that @NE$ treatment for acute rejection led to a 4 - 100 - fold increase in serum HCV RNA [ 31 ]	1
+20	Since then , an aggravated course of HCV reinfection after LT and increased resistance to antiviral therapy have been attributed to the application of specific immunosuppressive medication [ 32 , 33 ]	1
+21	Herein , various immunosuppression strategies have been evaluated for their influence on HCV recurrence .	1
+22	Glucocorticoids	1
+23	Glucocorticoids are often given as an induction protocol during LT , and low doses combined with other immunosuppressants are used as maintenance immunosuppression after operation	1
+24	In case of acute rejection , recipients receive pulse @NE$ to reverse the rejection	1
+25	There are convincing data that bolus doses of glucocorticoids given for rejection treatment have a negative impact on HCV recurrence	1
+26	It is estimated that cumulative exposure to corticosteroid@NE$ with increased mortality , higher levels of HCV vire , and more severe histological recurrence [ 34 ]	1
+27	One recent study demonstrated that glucocorticosteroids specifically increased HCV entry by upregulating the cell entry factors occludin and scavenger receptor class B type I	1
+28	The data suggested that the potential effects of high - dose glucocorticosteroids on HCV infection in vivo may be due to increased HCV dissemination [ 35 ]	1
+29	Previous studies have indicated that the specific CD4 T cell response to HCV is important in viral clearance of acute HCV infection after liver transplantation	1
+30	Moreover , plasmacytoid dendritic cells are capable of producing large amounts of IFN against HCV infection in this specific CD4 T cell response [ 36 , 37 ]	1
+31	Experimental data have shown that prednisolone suppressed the functions of plasmacytoid dendritic cells by promoting their apoptosis [ 38 ]	1
+32	Thus , in a transplant setting , the consensus is that steroid avoidance or slow tapering of the dose is associated with reduced HCV recurrence [ 39 , 40 ] , whereas boluses for treating acute rejection can increase the viral load [ 31 ] .	1
+33	Calcineurin Inhibitors ( CNIs )	1
+34	@NE$ is a lipophilic cyclic peptide of 11 amino acids , while tacrolim@NE$ rolide anti@NE$ oth drugs bind with high affinity to a family of cytoplasmic proteins ( also called immunophilin ) , which present in a variety of immune cells	1
+35	Immunophilindependent signal transduction via calcineurin represents a key event in the activation of T cell proliferation by regulating expression of the gene that encodes IL2	1
+36	Cyclosporine A ( Cy@NE$ cyclophilin , while tacrolimus ( Tac ) binds to FK binding proteins ( FKBPs )	1
+37	The binding blocks the phosphatase activity of calcineurin and subsequently inhibits TCR / CD3 - induced T cell proliferation by the blockage of IL2 production	1
+38	Intriguingly , in addition to their promoting role in calcineurin signalling , immunophilins are catalysts of protein folding and contribute to the invasion ability of several coronaviruses [ 41 ]	1
+39	As to HCV , it is well established that cyclophilins have an important role in viral replication and de novo virus production	1
+40	Recent data suggest that HCV replication is dependent on the interaction between cyclophilin B and nonstructural protein 5B ( NS5B , HCV RNA polymerase ) to stimulate its RNA binding activity and thereby promote the de novo synthesis of positive and negative stranded RNA [ 42 ]	1
+41	Given the fact that immunophilins can work as a supportive role in viral infection , it is rational to find out that CyA is capable of the anti - HCV activity through mediating a specific blockade of cyclophilins to NS5B RNA [ 43 ]	1
+42	As CyA interacts with both cyclophilin A and cyclophilin B , it is conceivable that CyA affects multiple steps in the life cycle of HCV	1
+43	However , there is controversy about the anti - HCV effects of cyclosporine A in vivo	1
+44	By contrast , Tac does not have any anti - HCV activity [ 44 ] .	1
+45	@NE$ and@NE$  @NE$ l ( MMF ) belongs t@NE$ e class of antimetabolite immunosuppressive agents	1
+46	Mycophenolic a@NE$ active metaboli@NE$ f MMF , is a selective nonco@NE$ itive inhibitor of inosine monophosphate deh@NE$  In addition to its potent immunosuppressive capacity , the in vitro assay has indicated that MPA has antiviral effect against HCV [ 45 @NE$ In HCV cell culture models , MPA could induce the expression of important antiviral interferon - stimulated genes , including interferon regulatory factor ( IRF ) 1 , IRF 9 , and interferoninduced transmembrane protein 3 ( IFITM3 ) [ 46 ]	1
+47	Among these proteins , data showed that IRF1 was directly involved in the anti - HCV activity of MPA	1
+48	Moreover , MPA could have effects in synergy with IFN - on HCV replication in the same HCV experiments	1
+49	In addition , when combined with IFN - , MPA augmented the transcription of multiple interferon - stimulated genes	1
+50	With the molecular basis of how MPA works in synergy with IFN , proper prospective clinical studies are warranted to confirm their synergistic effects against HCV in vivo	1
+51	On the other hand , although the safety and efficacy of MMF as an immunosuppressive medication in HCV patients undergoing LT have been demonstrated , the exact effects on HCV recurrence have not been clearly studied .	1
+52	@NE$	1
+53	With low nephrotoxicity and potential anticancer properties , rapam@NE$ een increasingly used in the transplantation context [ 47 ]	1
+54	It has been well known that rapamycin @NE$ e cytosolic protein FKBP12 to form a complex	1
+55	This complex inhibits the mTOR pathway by directly binding to the mTOR complex 1 , resulting in blockage of cell cycle progression from the G1 to S phase and thereby causing inhibition of T cell proliferation	1
+56	Intriguingly , rapamycin induc@NE$ gy through inhibit mTOR	1
+57	Autophagy is a process for catabolizing organelles and other intracellular components to balance cellular metabolism and to promote cell survival during stressful conditions	1
+58	In fact , autophagy is also an important event in the regulation of the cellular response against viral infections [ 48 ]	1
+59	It is noteworthy that HCV infection induces autophagy in the hepatocytes via the unfolded protein response , and the autophagy induced by HCV is incomplete through blocking the maturation of autophagosomes to autolysosomes [ 49 ]	1
+60	The autophagosomes will not be degraded but instead support viral replication	1
+61	Recent study demonstrated that NS5B could directly interact with the host proteins to induce the autophagy [ 50 ]	1
+62	In addition , the HCV - induced autophagy may promote infection by reducing the innate immunity [ 51 ]	1
+63	Based on these findings , it is conceivable that rapamycin could affect HCV recurrence and antiviral interferon therapy	1
+64	However , clinical evidence is needed to make sure of its in vivo effect .	1
+65	HCV reinfection of the graft is almost universal among recipients with active infections at the time of transplantation [ 52 ]	1
+66	An accelerated progression of fibrosis is noted in those recipients with recurrent HCV after transplant , and at least 25 to 30 % of patients will eventually develop liver cirrhosis within 5 to 10 years [ 53 , 54 ]	1
+67	Once liver cirrhosis is established , the first episode of decompensation may occur in as high as 40 % of patients within 1 year	1
+68	Apart from the rapid progression of fibrosis , recipients with recurrent hepatitis C may also develop severe fibrosing cholestatic hepatitis , characterized by jaundice , rapidly after organ transplantation in the absence of biliary obstruction causing a very high risk of graft failure [ 55 ]	1
+69	For the reason , HCV - related recipients show a worse posttransplant outcome compared to HCV - negative recipients	1
+70	A previous study which retrospectively analyzed 11036 patients with 11791 liver transplants confirmed that the HCV infection significantly impaired patient and graft survival after LT [ 56 ]	1
+71	Focusing on the strategy to recurrent HCV infection after LT , three approaches have been identified according to the timing of treatment : pretransplantation antiviral therapy , posttransplantation prevention and preemptive treatment , and treatment for established reinfection	1
+72	[ 58 ]	1
+73	It is noteworthy that none of the patients who achieved SVR before LT developed graft reinfection in the study	1
+74	In addition to the relative poor efficacy , safety of pegylated IFN is another concern in patients with decompensated cirrhosis	1
+75	Carrion et al	1
+76	reported that 43 % , 29 % , and 8 % of patients suffered from discontinuation , decompensation , and death during therapy [ 57 ]	1
+77	Although the incidence of decompensation and death is similar in comparison to control group , treated patients suffered from a significantly higher rate of bacterial infection than control group	1
+78	Child - Pugh B / C is the only independent factor associated with bacterial infection	1
+79	These data suggested that patients with decompensated cirrhosis should be closely monitored during Pegylated IFN therapy and followed by experts with considerable experience	1
+80	Direct acting antivirals ( DAAs ) , including protease , polymerase or other nonstructural protein inhibitors , are the newly developed agents for HCV treatment	1
+81	Current data on HCV treatment using DAA are limited in patients with cirrhosis	1
+82	In the phase III trials with telaprevir and boceprevir , there were only a few patients with advanced fibrosis or compensated cirrhosis included [ 59 ] [ 60 ] [ 61 ]	1
+83	Although the results from the phase III trials of telaprevir and boceprevir triple therapy showed a higher SVR rates compared to Pegylated IFN / RBV therapy in advanced fibrosis and cirrhotic patients , the severe advanced events rates were also increased in patients receiving triple therapy	1
+84	The data from compassionate use of protease inhibitors in viral C cirrhosis ( CUPIC ) cohort also demonstrated an increased serious adverse events rates ( from 30 % to 51 % ) and discontinuation rates ( from 7 % to 12 % ) in cirrhotic nonresponders compared to the phase III trials	1
+85	Another study in 20 cirrhotic patients awaiting LT demonstrated that 71 % of patients achieved undetectable HCV RNA at 12 weeks with DAA triple therapy	1
+86	However , 25 % of patients suffered from early discontinuation , and 10 % of patients had decompensation during therapy	1
+87	The results suggest that triple therapy must be administered cautiously with intensive safety monitoring in cirrhotic patients .	1
+88	Because of the accelerated clinical course of recurrent hepatitis C after LT , strategy to prevent reinfection of the graft is needed	1
+89	Antihepatitis B immunoglobulin had been approved to successfully prevent HBV recurrence after LT	1
+90	It is used in antibody therapy for HCV - infected recipients	1
+91	However , recent studies using hepatitis C immunoglobulin or monoclonal antibody show only transient decrease of liver HCV RNA levels in liver transplant recipients [ 62 , 63 ]	1
+92	Preemptive or early posttrans antiviral therapy aims to prevent the rapid development of chronic hepatitis before there is evidence of recurrent HCV infection	1
+93	It is usually initiated within one month after LT	1
+94	Compared to immunocompetent subjects , antiviral therapy response decreases during this period because of the high level of immunosuppression	1
+95	A pilot study by Mazzaferro collected 36 HCV - RNA + cirrhotic patients who started a 12 - month IFN plus RBV combination therapy within 3 weeks after LT [ 64 ]	1
+96	The sustained virological response ( SVR ) was achieved in 33 % of patients	1
+97	None of the patients developed graft rejection , and normal histology was also noted in patients with SVR after a median followup of 52 months	1
+98	However , higher than 26 % of graft rejection was noted in another study using IFN and RBV combination therapy for more than 12 months [ 65 ]	1
+99	Moreover , four other studies using different regiments , two IFN monotherapy and two pegylated - IFN monotherapy , showed a poor effect of less than 20 % of SVR and a higher rate of treatment discontinuation and graft rejection [ 66 ] [ 67 ] [ 68 ] [ 69 ]	1
+100	Therefore , more prospective and large - scaled studies are still needed to investigate the most appropriate regimen for Preemptive treatment .	1
+101	Hepatitis C virus ( HCV ) is a small - enveloped RNA virus belonging to the Flaviviridae family	1
+102	Since first identified in 1989 , HCV has been estimated to infect 170 million people worldwide	1
+103	Mostly chronic hepatitis C virus has a uniform natural history , from liver cirrhosis to the development of hepatocellular carcinoma	1
+104	The current therapy for HCV infection consists of a combination of @NE$ and ribavirin	1
+105	On t@NE$ and , HCV - related liver disease is also the leading indication for liver transplantation	1
+106	However , post HCV re - infection of the graft has been reported to be universal	1
+107	Furthermore , the graft after HCV re - infection often results in accelerated progression to liver failure	1
+108	In addition , treatment of recurrent HCV infection after liver transplantation is often compromised by enhanced adverse effects and limited efficacy of interferon - based therapies	1
+109	Taken together , poor outcome after HCV re - infection , regardless of grafts or recipients , poses a major issue for the hepatologists and transplant surgeons	1
+110	The aim of this paper is to review several specific aspects regarding HCV re - infection after transplant : risk factors , current therapeutics for HCV in different stages of liver transplantation , cellular function of HCV proteins , and molecular mechanisms of HCV entry	1
+111	Hopefully , this paper will inspire new strategies and novel inhibitors against recurrent HCV infection after liver transplantation and greatly improve its overall outcome .	1
+112	Hepatitis C virus ( HCV ) was a member of Flaviviridae family virus , and seven major genotypes ( Genotype 1 [UNK] 7a ) have been identified with distinct regional distribution patterns	1
+113	HCV is a major cause of chronic hepatitis worldwide , and end - stage liver disease caused by HCV has increasingly become the leading indication for liver transplantation ( LT )	1
+114	It has been well known that HCV reinfection following LT examined by HCV RNA detection using the polymerase chain reaction occurs almost universally [ 1 ]	1
+115	The natural history of HCV reinfect is substantially changed after LT with accelerated rate of cirrhosis recurrence of 8 - 44 % in 5 - 7 years [ 2 ]	1
+116	It has been pointed out that HCV reinfects the liver graft at time of reperfusion intraoperatively [ 3 ]	1
+117	The virus source is attributed to the blood itself with a high probability [ 4 ] .	1
+118	The viral load can return to the pretransplant values within 4 days after transplantation and may be influenced by the usage of @NE$ [ 5 ]	1
+119	Acute hepatitis occurs between 2 - 5 months after transplant , and it is characterized by acute lobular hepatitis [ 4 ]	1
+120	In the early reinfection stage , the graft injury occurs only after 3 weeks	1
+121	Chronic hepatitis is established about 6 - 12 months after transplantation	1
+122	The stage of chronic hepatitis is characterized by a decrease of viral load and a pattern of immune - mediated injury	1
+123	A variant form of posttransplant HCV infection is cholestatic hepatitis C that occurs in < 10 % of patients , frequently associated with high viral load and immunosuppression	1
+124	Usually , it occurs within 1 - 6 months after transplant and can progress to hepatic failure in 3 - 6 months [ 6 ]	1
+125	This form is characterized by very high viral load , cellular ballooning , low inflammation , and a Th2 intrahepatic immunological response	1
+126	These features suggest that the liver lesion is due to a direct cytopathic injury caused by HCV .	1
+127	To date , the absence of preventive strategy for HCV reinfection after transplant is a major challenge for the HCV recipients undergoing LT	1
+128	As mentioned above , reinfection of the liver graft is universal and characterized by accelerated progression of liver disease	1
+129	Furthermore , treatment of recurrent HCV infection after LT is compromised by enhanced adverse effects and limited efficacy of interferon - based therapies	1
+130	In addition , poor outcome after graft reinfection of HCV has increasingly become a major problem faced by the hepatologists and transplant surgeons	1
+131	Thus , novel preventive and therapeutic strategies of HCV reinfection are urgently needed .	1
+132	Recurrence of HCV infection in the liver allograft is universal after LT , and its natural history is variable	1
+133	It has been estimated that approximately 20 % of recipients will progress to graft cirrhosis within 5 years of transplant [ 7 ]	1
+134	Overall , HCV disease is more aggressive in the posttransplant recipients than in patients whose immunity is intact [ 8 ]	1
+135	Accelerated disease progression is multifactorial and probably depends on a number of variables , including host , donor , viral , and external factors	1
+136	However , the definite interactions between these factors and recurrent HCV infection in the liver allograft still remain controversial and poorly defined	1
+137	Thus , to identify recipients at risk for rapid HCV recurrence after LT will be helpful especially when considering treatment with the currently available antiviral agents either as prophylaxis or therapy	1
+138	To date , a number of risk factors have been mentioned regarding this clinical issue .	1
+139	One study , reviewing 307 patients who underwent LT for HCV over a 10 - year period , suggested that advanced donor age , prolonged donor hospitalization , increasing recipient age , and elevated recipient MELD scores were found to increase the relative risk of HCV recurrence [ 9 ]	1
+140	Moreover , earlier studies have advocated that HCV recurrence may be more severe when older donors are used [ 10 , 11 ]	1
+141	In addition , the type of donor used may have an impact on HCV reinfection of the graft after LT	1
+142	One clinical observation suggested that HCV recurrence is more severe in living donor LT compared to cadaveric LT [ 12 ]	1
+143	However , another study reported that there are no differences observed in hepatitis C recurrence rate , severity of intrahepatic pathology , or graft and patient survival between living donor LT and cadaveric LT recipients [ 13 ]	1
+144	As to the source of HCV reinfection in the allograft , it may occur at time of reperfusion intraoperatively [ 3 ]	1
+145	The blood itself has a high probability to be the origin of this allograft reinfection [ 4 ]	1
+146	It is indeed valuable that identifying these risk factors before LT , particularly when matching donors to HCV recipients , may decrease the incidence of HCV recurrence after LT .	1
+147	Load	1
+148	HCV infection of the allograft is believed to be an extremely dynamic process	1
+149	HCV virus binds to the new allograft at the time of reperfusion , and viral replication occurs within hours after LT	1
+150	The impact of recipients ' viral load on HCV recurrence following LT is still uncertain , but a clear understanding of HCV kinetics after LT will contribute to the development of strategies to prevent HCV infection of the allograft	1
+151	An earlier study , which analyzed HCV kinetics during and immediately after LT , found a sharp decrease in HCV viral load during the anhepatic phase and immediately after graft reperfusion [ 3 ]	1
+152	This decrease was presumably attributed to massive binding of HCV to the hepatocytes	1
+153	In other words , reinfection is immediate after reperfusion	1
+154	Powers et al	1
+155	also reported that HCV RNA levels dropped with an average half - life of 0	1
+156	8 hours during the anhepatic phase [ 14 ]	1
+157	The authors also mentioned that viral loads then continued to drop up to 23 hours after implantation , and began to rise as soon as 15 hours after the anhepatic phase	1
+158	Moreover , the viral load reached a plateau before rising , suggesting that a nonhepatic source supplied virions and balanced their intrinsic clearance	1
+159	It was estimated that nonhepatic sources were at most responsible for 4 % of total viral production and the remaining 96 % occurred in the liver .	1
+160	Other similar studies pointed out that viral loads in serum returned to pretransplant levels within 24 to 48 hours after the procedure	1
+161	Within weeks after transplant , viral loads would be approximately 1 log higher than pretransplant levels [ 4 , 15 ]	1
+162	However , studies investigating the impact of pretransplant viral load on the likelihood of HCV recurrence have produced controversial results	1
+163	Several reports indicated that pretransplant viral load did not correlate with either the likelihood or timing of HCV recurrence following LT [ 16 ]	1
+164	By contrast , one study including 166 HCV - infected recipients demonstrated that before transplant , HCV viral load greater than 1 million viral equivalents / mL was associated with decreased graft and patient survival [ 17 ]	1
+165	Given the hypothesis that pretransplant treatment of HCV will reduce or prevent HCV posttransplant recurrence , it has been advocated that patients with HCV infection on the transplant list should be considered for therapy with the goal of obtaining sustained virological response ( SVR ) prior to LT [ 18 ] .	1
