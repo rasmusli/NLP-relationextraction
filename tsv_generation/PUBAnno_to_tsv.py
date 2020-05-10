@@ -20,12 +20,18 @@ def get_text_with_token(json_file):
     data = json.load(json_file)
     denotations = data['denotations']
     den_sorted =  sorted(denotations, key = lambda i: i['span']['begin'])
-    print (den_sorted)
-    for denotation in den_sorted:    #Reversed so changes dont 
+    print(den_sorted)
+    for denotation in reversed(den_sorted):    #Reversed so changes dont 
         start = denotation['span']['begin']     #Start index of entity
         end = denotation['span']['end']         #End index of entity
         data['text'] = data['text'][:start] + '@' + denotation['obj'].upper() + '$ ' + data['text'][end:]   #replace entity with @"obj"$
-    return data['text'].replace('\u2267', '')
+    data['text'] = data['text'].replace('\u2267', '')
+    data['text'] = data['text'].replace('\u2032', '')
+    data['text'] = data['text'].replace('\u03b2', '')
+    data['text'] = data['text'].replace('\u03b3', '')
+    data['text'] = data['text'].replace('\u03b4', '')
+    data['text'] = data['text'].replace('\u03b5', '')
+    return data['text']
 
 dir_path = 'gene_disease_combined/'
 #dir_path = '../output_generation/test_folder/'
@@ -36,10 +42,9 @@ with open('gene_disease.tsv', 'w') as out_file:
     for json_file_name in os.listdir(dir_path):     #Loop through all json files in directory
         with open(dir_path + json_file_name) as json_file:
             sentences = get_text_with_token(json_file).split(' . ') #split on " . " to divide running text into sentences
-            print(sentences)
             for sentence in sentences:
                 sentence.replace('\u2267', '')
-                out_file.write(str(index) + '\t' + sentence + '\t' + '1\n') #write to file according to format of test.tsv for RE
+                out_file.write(str(str(index) + '\t' + sentence + '\t' + '1\n')) #write to file according to format of test.tsv for RE
                 index += 1  #increase index for each row/sentence sentence
 
 
