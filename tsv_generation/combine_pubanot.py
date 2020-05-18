@@ -24,12 +24,39 @@ for file in listdir(folder_1): #Read all files in first folder (folder 1 and 2 s
 
             data_1 = json.load(json_1) #Dictionary containing the json file
             data_2 = json.load(json_2)
-            ID = len(data_1['denotations']) #Start value when appending new denotations
 
             for denot in data_2['denotations']: #Loop for all denotations in file 2 to add to file 1
-                ID += 1
-                denot['id'] = ID #Change the ID to fit in file 1
                 data_1['denotations'].append(denot) #Append the denotation to file 1
 
+            # Next we need to remove overlapping denotations, keeping the longest denotation
+            new_denotations = [] #Create new denotation list
+            ID = 1 # With 'id' staring at 1
+
+            denotations = data_1['denotations'] #Extract denotations
+            den_sorted =  sorted(denotations, key = lambda i: i['span']['begin']) #Sort on begin of the span
+            
+            for i in range(len(den_sorted)): #Outer loop to walk through all denotations
+                #Delete denotations that are overlapping, keep the longest one
+                longest_denot = den_sorted[i]
+                longest_length = longest_denot['span']['end'] - longest_denot['span']['begin']
+                
+                for k in range(i+1, len(den_sorted)) #Inner loop to to check forward denotations for overlap
+                    denot = den_sorted[k]
+
+                    if denot['span']['begin'] < longest_denot['span']['end']: #Means we have overlap
+                        length = denot['span']['end'] - denot['span']['begin'] 
+                        if length > longest_length: #Keep the longest one
+                            longest_denot = denot
+                            longest_length = length
+                    else:
+                        longest_denot['id'] = ID #Set new ID for the denotation
+                        new_denotations.append(longest_denot) #Append to the new denotation list
+                        ID += 1 
+                        i = k #Jump over the already checked denotations
+                        break #No need to check the rest of the list since it is sorted
+
+                    
+
+            data_1['denotations'] = new_denotations
             with open(output_dir+'/' + file , 'w') as out_file:
                 out_file.write(json.dumps(data_1))
