@@ -11,8 +11,8 @@ different folders that are containing the same files and outputing a new folder 
 """
 
 folder_1 = 'JNLPBA_PubAnno' #First folder to read from
-folder_2 = 'NCBL_PubAnno' #Second folder to read from
-output_dir = 'gene_disease_combined' #Output folder name, the script will create one if one does not already exist
+folder_2 = 'JNLPBA_PubAnno' #Second folder to read from
+output_dir = 'gene_disease_combined_test' #Output folder name, the script will create one if one does not already exist
 try:
     os.mkdir(output_dir)
 except:
@@ -35,12 +35,14 @@ for file in listdir(folder_1): #Read all files in first folder (folder 1 and 2 s
             denotations = data_1['denotations'] #Extract denotations
             den_sorted =  sorted(denotations, key = lambda i: i['span']['begin']) #Sort on begin of the span
             
-            for i in range(len(den_sorted)): #Outer loop to walk through all denotations
+            index = 0
+            while(index<len(den_sorted)-2): #Outer loop to walk through all denotation
+                
                 #Delete denotations that are overlapping, keep the longest one
-                longest_denot = den_sorted[i]
+                longest_denot = den_sorted[index]
                 longest_length = longest_denot['span']['end'] - longest_denot['span']['begin']
                 
-                for k in range(i+1, len(den_sorted)) #Inner loop to to check forward denotations for overlap
+                for k in range(index+1, len(den_sorted)): #Inner loop to to check forward denotations for overlap
                     denot = den_sorted[k]
 
                     if denot['span']['begin'] < longest_denot['span']['end']: #Means we have overlap
@@ -52,8 +54,9 @@ for file in listdir(folder_1): #Read all files in first folder (folder 1 and 2 s
                         longest_denot['id'] = ID #Set new ID for the denotation
                         new_denotations.append(longest_denot) #Append to the new denotation list
                         ID += 1 
-                        i = k #Jump over the already checked denotations
+                        index = k #Jump over the already checked denotations
                         break #No need to check the rest of the list since it is sorted
+                break #If we reach here means we checked all denotations for overlap
 
                     
 
