@@ -83,8 +83,8 @@ with open('gene_disease.tsv', 'w') as out_file:
                                     mask_begin_e2 = original_scentences[i].find(word_e2['word'])
                                     mask_end_e2 = original_scentences[i].find(word_e2['word']) + len(word_e2['word'])
                                     sentence = original_scentences[i][:mask_begin_e1] + word_e1['mask'] + original_scentences[i][mask_end_e1-1:mask_begin_e2] + word_e2['mask'] + original_scentences[i][mask_end_e2-1:]
-                                    out_file.write(str(str(index) + '\t' + masked_sentence + '\t' + '1\n')) #write to file according to format of test.tsv for RE
-
+                                    out_file.write(str(str(index) + '\t' + sentence + '\t' + '1\n')) #write to file according to format of test.tsv for RE
+                                    out_file_analysis.write(str(index) + '\t' + sentence + '\t' + original_scentences[i] + '\t' +json_file_name+ '\t' +str(sentence_start)+ '\t' +str(sentence_end)+ '\t' +str(word_e1['denot'])+ '\t' +str(word_e2['denot'])+ '\n')
                                     index += 1  #increase index for each row/sentence sentence
                                 else:
                                     mask_begin_e1 = original_scentences[i].find(word_e1['word'])
@@ -92,7 +92,7 @@ with open('gene_disease.tsv', 'w') as out_file:
                                     mask_begin_e2 = original_scentences[i].find(word_e2['word'])
                                     mask_end_e2 = original_scentences[i].find(word_e2['word']) + len(word_e2['word'])
                                     sentence = original_scentences[i][:mask_begin_e2] + word_e2['mask'] + original_scentences[i][mask_end_e2-1:mask_begin_e1] + word_e1['mask'] + original_scentences[i][mask_end_e1-1:]
-                                    out_file.write(str(str(index) + '\t' + masked_sentence + '\t' + '1\n')) #write to file according to format of test.tsv for RE
+                                    out_file.write(str(str(index) + '\t' + sentence + '\t' + '1\n')) #write to file according to format of test.tsv for RE
                                     index += 1  #increase index for each row/sentence sentence
                         
                     i += 1
