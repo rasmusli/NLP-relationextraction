@@ -1,1 +1,0 @@
-{"cord_uid": "u14tj0so", "sourcedb": "PMC", "sourceid": "PMC4064103", "divid": "53", "text": "We compare the average accuracy of HFold , HFold - PKonly and Iterative HFold with different input structures .", "project": "cdlai_CORD-19", "denotations": [{"id": 1, "span": {"begin": 35, "end": 41}, "obj": "Gene"}]}
