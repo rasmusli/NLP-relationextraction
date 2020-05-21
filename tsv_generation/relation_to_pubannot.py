@@ -12,13 +12,13 @@ def create_relation(ref_line, ID):
 def thresh_hold(probability):
     return 1 if probability > 0.5 else 0
 
-pred_path = "../Results/test_results_gad_1_fine_tune.tsv"
+pred_path = "../subset_predictions/gad_predictions.xlsx"
 pub_annot_folder = "gene_disease_combined"
 reference_file = "sentence_locations.tsv"
 
-predictions = pd.read_csv(pred_path, delimiter='\t',header=None)
-predictions.columns = ['No Relations', 'Relations']
-
+xls = pd.ExcelFile(pred_path)
+prediction = pd.read_excel(xls, 'Intersection',index_col=0)
+print(prediction)
 reference = pd.read_csv(reference_file, delimiter='\t',header=0)
 print(reference)
 
@@ -26,7 +26,7 @@ for i in range(len(reference)):
     ref_line = reference.iloc[i]
     with open(pub_annot_folder + '/' + ref_line['json file']) as json:
         data = json.load(json)
-        if thresh_hold(predictions.loc[i,'Relations']):
+        if prediction.iloc[0]:
             try:
                 relations = data['relations']
                 ID = len(relations)
